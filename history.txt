@@ -1,0 +1,999 @@
+   32  vi file.sh 
+   33  ./file.sh 
+   34  vi file.sh 
+   35  ./file.sh 
+   36  pwd
+   37  cd d1
+   38  pwd
+   39  vi file.sh 
+   40  ./file.sh 
+   41  ./5files.sh
+   42  ls
+   43  file.sh
+   44  sample.sh
+   45  cat file.sh
+   46  cat sample.ssh 
+   47  git --version
+   48  sudo apt-get update
+   49  sudo apt-get install -y git
+   50  sudo yum -y update
+   51  sudo yum install -y git
+   52  git --version
+   53  ls
+   54  cd d1
+   55  ls
+   56  cat ta1
+   57  cat t1
+   58  cd t1
+   59  ls
+   60  cat f8
+   61   cd
+   62  cd d2
+   63  ls
+   64  ll
+   65  mv d2 shellscript
+   66  mkdir shellscript
+   67  ls
+   68  cd shellscript
+   69  vi arguments.sh
+   70  chmod ug+x arguments.sh 
+   71  vi arguments.sh
+   72  ./arguments.sh
+   73  ./arguments.sh pooja 32 mysore
+   74  sh arguments.sh 
+   75  sh arguments.sh  pooja 32 mys
+   76  vi arguments.sh
+   77  ./arguments.sh
+   78  sh arguments.sh  pooja 32 mys
+   79  vi readarguments.sh
+   80  ./readarguments.sh
+   81  chmod ug+X readarguments.sh
+   82  ./readarguments.sh
+   83  chmod ug+x readarguments.sh
+   84  ./readarguments.sh
+   85  vi readarguments.sh
+   86  ./readarguments.sh
+   87  $0
+   88  $$
+   89  vi special.sh
+   90  chmod ug+x special.sh
+   91  ./special.sh
+   92  echo $0
+   93  echo $#
+   94  echo $*
+   95  echo $@
+   96  echo $$
+   97  echo $!
+   98  echo $?
+   99  vi special.sh
+  100  ./special.sh
+  101  vi special.sh
+  102  ./special.sh
+  103  crontab -e
+  104  ls
+  105  cd
+  106  crontab -e
+  107  ls
+  108  cat arguments.sh
+  109  crontab -e
+  110  mv arguments.sh /d2/argumentss.sh
+  111  cd d2
+  112  ll
+  113  cd d3
+  114  ll
+  115  cp shellscript d3
+  116  mv d2/shellcript d3
+  117  mv arguments.sh /d2/shellscript/argumentss.sh
+  118  cd shellscript
+  119  cd
+  120  crontab -l
+  121  cd d2
+  122  cd shellscript
+  123  ll
+  124  vi palindrome.sh
+  125  chmod ug+x palindrome.sh 
+  126  ./palindrome.sh 
+  127  vi palindrome.sh 
+  128  ./palindrome.sh 
+  129  vi palindrome.sh 
+  130  ./palindrome.sh 
+  131  vi palindrome.sh 
+  132  ./palindrome.sh 
+  133  ll
+  134  cd
+  135  cd d2
+  136  ll
+  137  pwd
+  138  cd shellscript
+  139  mv -f shellscript /home/ec2-user
+  140  mv -f /home/ec2-user/d2/shellscript /home/ec2-user
+  141  ll
+  142  cd
+  143  ll
+  144  cd shellscript
+  145  ll
+  146  cd
+  147  git log
+  148  vi wordsplit.sh
+  149  git init
+  150  mkdir practiceGIT
+  151  cd practiceGIT/
+  152  git clone
+  153  vi git1
+  154  git remote -v
+  155  ll
+  156  cat git1
+  157  cd
+  158  git config user.name "PoojaAshi"
+  159  git config -- global user.name "PoojaAshi"
+  160  git config --global user.name "PoojaAshi"
+  161  git config --global user.email "pooja.ashish2021@gmail.com"
+  162  ll
+  163  cd practiceGIT/
+  164  git clone git@github.com:PoojaAshi/Firstrepo.git
+  165  branch
+  166  ls -al
+  167  cd
+  168  ls -al
+  169  cd .ssh
+  170  ll
+  171  cat id_rsa.pub
+  172  git clone git@github.com:PoojaAshi/Firstrepo.git
+  173  cat id_rsa.pub
+  174  ll
+  175  cd firstrepo
+  176  rm Firstrepo/
+  177  rm -rf Firstrepo/
+  178  cd
+  179  cd practiceGIT/
+  180  git clone git@github.com:PoojaAshi/Firstrepo.git
+  181  ll
+  182  cd firstrepo
+  183  cd Firstrepo
+  184  ll
+  185  cat f1234
+  186  vi f1234
+  187  git status
+  188  git add .
+  189  git status
+  190  git commit -m "2 lines"
+  191  git push -u origin main
+  192  git log
+  193  git show 54f0568c740cf3f119e2fdbed1b44a57b152083f
+  194  git show 4e5f884effbcb5acc03eaeb396b2e15e69e78028
+  195  git ammend -m "testing push"
+  196  git --ammend -m "testing push"
+  197  git commit --ammend -m "testing push"
+  198  clear
+  199  git revert
+  200  git revert 4e5f884effbcb5acc03eaeb396b2e15e69e78028
+  201  git log -1
+  202  git log -2
+  203  git diff
+  204  ll
+  205  vi localfile
+  206  ll
+  207  git add localfile 
+  208  git status
+  209  git commit -m "localfile pushing"
+  210  git status
+  211  git push -u origin main
+  212  git log
+  213  git config
+  214  git log localfile
+  215  git config
+  216  git config localfile
+  217  git branch
+  218  cd..
+  219  ls -lrt
+  220  cd ..
+  221  ls -lrt
+  222  vi git1
+  223  git status git1
+  224  git add git1
+  225  git status
+  226  git branch
+  227  git status
+  228  git commit -m "new file from local server"
+  229  git status
+  230  git push git1
+  231  git push -u origion
+  232  git push --set-upstream origion master
+  233  git branch
+  234  git push -u origin master
+  235  git push -u origin main
+  236  cler
+  237  ls -lrt
+  238  cat git1
+  239  git branch
+  240  git add .
+  241  git status
+  242  clear
+  243  git revert
+  244  git revert git1
+  245  cd
+  246  ll
+  247  cd shellscript/
+  248  ll
+  249  cat arguments.sh 
+  250  cd
+  251  cat arguments.sh 
+  252  rm arguments.sh 
+  253  ll
+  254  clear
+  255  crontab -e
+  256  crontab -l
+  257  ll
+  258  crntab -e
+  259  crontab -l
+  260  crontab -e
+  261  crontab -l
+  262  ll
+  263  time
+  264  ls
+  265  cd shellscript/
+  266  crontab -e
+  267  crontab -l
+  268  crontab -e
+  269  cd
+  270  crontab -l
+  271  cat /etc/crontab
+  272  crontab -e
+  273  crontab -l
+  274  ls
+  275  ll
+  276  crontab -e
+  277  cd d1
+  278  ll
+  279  ll
+  280  exit
+  281  ll
+  282  ls
+  283  exit
+  284   crontab -e
+  285  ll
+  286  pwd
+  287  crontab -e
+  288  ll
+  289  cd d1
+  290  ll
+  291  crontab -e
+  292  cd
+  293  ll
+  294  run 'select editor'
+  295  crontab -e
+  296  crontab -l
+  297  cd d1
+  298  ll
+  299  crontab -e
+  300  crontab -l
+  301  crontab -e
+  302  cd
+  303  echo $EDITOR
+  304  export EDITOR=nano
+  305  echo $EDITOR
+  306  crontab -e
+  307  crontab -l
+  308  crontab -e
+  309  crontab -l
+  310  ll
+  311  tree
+  312  ll -al
+  313  cat newcron
+  314  crontab -e
+  315  cd d1
+  316  ll
+  317  crontab -e
+  318  ll
+  319  crontab -e
+  320  cd
+  321  crontab -e
+  322  rm newcron
+  323  ll
+  324  crontab -e
+  325  /tmp/crontab.L6Fg8r
+  326  cd /tmp/crontab.L6Fg8r
+  327  cat /tmp/crontab.L6Fg8r
+  328  /tmp/crontab.L6Fg8r
+  329  cat /etc/tmp
+  330  cat /tmp
+  331  cd /tmp
+  332  ll
+  333  rm crontab.w4qHAP crontab.Z5QklU
+  334  ll
+  335  cd systemd-private-219f23e77f2b47a58bd7f5d638346cfb-chronyd.service-3UBP6e
+  336  ll
+  337  cat 
+  338  cd
+  339  ll
+  340  cd shellscript
+  341  ll
+  342  vi awakemsg.sh
+  343  chmod ug+x awakemsg.sh
+  344  ll
+  345  ./awakemsg.sh
+  346  pwd
+  347  crontab -e
+  348  crontab -l
+  349  crontab -e
+  350  clear
+  351  cd
+  352  crontab -l
+  353  crontab -e
+  354  cat awakemsg.sh
+  355  cat /home/ec2-user/shellscript/awakemsg.sh
+  356  ll
+  357  chmod ug+x cronjob
+  358  cronjob -e
+  359  cornjob -e
+  360  crontab -e
+  361  cat cornjob
+  362  clear
+  363  crontab -e
+  364  mail
+  365  vi touch.sh
+  366  cd
+  367  d1
+  368  cd d1
+  369  pwd
+  370  vi touch.sh
+  371  chmod ug+x touch.sh 
+  372  crontab -e
+  373  cd
+  374  crontab -e
+  375  ll
+  376  cd sample.ssh
+  377  cd /home/ec2-user/shellscript/awakemsg.sh
+  378  cd /home/ec2-user/shellscript
+  379  ll
+  380  cd
+  381  cdc d1
+  382  cd d1
+  383  ll
+  384  crontab -e
+  385  cd touch.sh
+  386  crontab -e
+  387  ll
+  388  vi touch.sh 
+  389  ll
+  390  cd
+  391  cd d1
+  392  ll
+  393  crontab -l
+  394  cat touch.sh
+  395  touch xyz
+  396  ll
+  397  rm xyz
+  398  ll
+  399  clear
+  400  ls
+  401  cd
+  402  ll
+  403  cg practiceGIT/
+  404  pwd
+  405  su -
+  406  sudo su
+  407  exit
+  408  git commit --amend
+  409  cd practiceGIT/Firstrepo
+  410  git commit --amend
+  411  cd
+  412  git branch
+  413  git branch pooja
+  414  branch
+  415  git branch
+  416  git branch -m pooja
+  417  git branch
+  418  git branch -b pooja
+  419  branch checkout pooja
+  420  branch checkout master
+  421  git branch
+  422  tree
+  423  git dif f1234
+  424  git diff f1234
+  425  cd practiceGIT/Firstrepo
+  426  ll
+  427  git diff f1234
+  428  git diff localfile
+  429  diff --git localfile
+  430  diff --help
+  431  clear
+  432  ll
+  433  git init
+  434  diff --git localfile
+  435  vi f1234
+  436  git status
+  437  git add.
+  438  git add .
+  439  git status
+  440  git commit -m "changes in 4th and 5th line"
+  441  git branch
+  442  git status
+  443  git push -u origin main
+  444  git diff f1234
+  445  diff --git f1234
+  446  git push -u origin main
+  447  git push --help
+  448  git clone git@github.com:PoojaAshi/Firstrepo.git
+  449  ll
+  450  vi f1234
+  451  git push -u origin main
+  452  git pull f1234
+  453  vi f1234
+  454  git status
+  455  git add .
+  456  git status
+  457  git commit -m "unwanted changes"
+  458  git status
+  459  git push -u origin main
+  460  git branch
+  461  git pull otigion main
+  462  git pull origin main
+  463  git push -u origin main
+  464  git status
+  465  git add .
+  466  git commit -m "unwanted changes"
+  467  git status
+  468  git push -u origin main
+  469  To github.com:PoojaAshi/Firstrepo.git
+  470   ! [rejected]        main -> main (non-fast-forward)
+  471  error: failed to push some refs to 'github.com:PoojaAshi/Firstrepo.git'
+  472  hint: Updates were rejected because the tip of your current branch is behind
+  473  hint: its remote counterpart. Integrate the remote changes (e.g.
+  474  hint: 'git pull ...') before pushing again.
+  475  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  476  git cherry pick
+  477  clear
+  478  cd
+  479  git push -u origin main
+  480  pwd
+  481  ll
+  482  cd practiceGIT/
+  483  ll
+  484  git pull origin main
+  485  cd Firstrepo/
+  486  git pull origin main
+  487  hint: You have divergent branches and need to specify how to reconcile them.
+  488  hint: You can do so by running one of the following commands sometime before
+  489  hint: your next pull:
+  490  hint:
+  491  hint:   git config pull.rebase false  # merge
+  492  hint:   git config pull.rebase true   # rebase
+  493  hint:   git config pull.ff only       # fast-forward only
+  494  hint:
+  495  hint: You can replace "git config" with "git config --global" to set a default
+  496  hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+  497  hint: or --ff-only on the command line to override the configured default per
+  498  hint: invocation.
+  499  fatal: Need to specify how to reconcile divergent branches.
+  500  hint: You have divergent branches and need to specify how to reconcile them.
+  501  hint: You can do so by running one of the following commands sometime before
+  502  hint: your next pull:
+  503  hint:
+  504  hint:   git config pull.rebase false  # merge
+  505  hint:   git config pull.rebase true   # rebase
+  506  hint:   git config pull.ff only       # fast-forward only
+  507  hint:
+  508  hint: You can replace "git config" with "git config --global" to set a default
+  509  hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+  510  hint: or --ff-only on the command line to override the configured default per
+  511  hint: invocation.
+  512  fatal: Need to specify how to reconcile divergent branches.
+  513  git pull --rebase 
+  514  branch
+  515  git branch 
+  516  git pull --no-rebase
+  517  ll
+  518  vi 28-2-23
+  519  branch status
+  520  git status
+  521  git add 
+  522  git add .
+  523  git commit -m "rebase commands usage"
+  524  git push -u origin main
+  525  git diff 28-2-23
+  526  diff --git 28-2-23
+  527  git diff
+  528  git diff HEAD~1 HEAD
+  529  git --amend
+  530  git commit --amend
+  531  git log
+  532  git log --online
+  533  git stash
+  534  git remote
+  535  ll
+  536  vi f1234
+  537  git stash
+  538  git status
+  539  git pull --rebase
+  540  git add .
+  541  git commit -m "f12345 edits"
+  542  git push -u origin main
+  543  cat f1234
+  544  branch status
+  545  git branch
+  546  git checkot master
+  547  git checkout master
+  548  git branch master
+  549  git branch
+  550  git checkout master
+  551  git branch
+  552  git log
+  553  git cherry-pick commit 625efe1f06ccb4a113ea054e95c08976223d9e94
+  554  git cherry-pick commit 625efe1f06ccb4a113ea054e95c08976223d9e94
+  555  git cherry-pick 625efe1f06ccb4a113ea054e95c08976223d9e94
+  556  git cherry-pick commit-625efe1f06ccb4a113ea054e95c08976223d9e94
+  557  git cherry-pick commit cd109896616233e1149cfdd632f114c210294efa
+  558  git branch
+  559  ll
+  560  cd practiceGIT/
+  561  git Firstrepo/
+  562  cd Firstrepo/
+  563  git status
+  564  git checkout main
+  565  git log
+  566  git checkout master
+  567  git cherry-pick commit cd109896616233e1149cfdd632f114c210294efa
+  568  git reflog
+  569  git log
+  570  git log -2
+  571  git cherry-pick commit 625efe1f06ccb4a113ea054e95c08976223d9e94
+  572  git status
+  573  vi mastertoch 
+  574  git status
+  575  git cherry-pick commit 625efe1f06ccb4a113ea054e95c08976223d9e94
+  576  git add .
+  577  git status
+  578  git cherry-pick commit 625efe1f06ccb4a113ea054e95c08976223d9e94
+  579  git commit -m "new file on master"
+  580  git diff
+  581  git branch
+  582  git push -u origin maste
+  583  git push -u origin master
+  584  git cherry-pick commit 625efe1f06ccb4a113ea054e95c08976223d9e94
+  585  git cherry-pick
+  586  git branch
+  587  git cherry-pick f1234
+  588  git cherry-pick cd109896616233e1149cfdd632f114c210294efa
+  589  git cherry-pick --continue
+  590  git add cd109896616233e1149cfdd632f114c210294efa
+  591  git cherry pick commit cd109896616233e1149cfdd632f114c210294efa
+  592  git cherry-pick commit cd109896616233e1149cfdd632f114c210294efa
+  593  git cherry-pick cd109896616233e1149cfdd632f114c210294efa
+  594  git status
+  595  git add .
+  596  git cherry-pick cd109896616233e1149cfdd632f114c210294efa
+  597  git status 
+  598  git cherry-pick --continue
+  599  git status 
+  600  git push origin master
+  601  history
+  602  ssh-keygen -t -rsa -b 4096 -C
+  603  ssh-keygen -t -rsa -b 4096 --C
+  604  ssh-keygen -t -rsa -b 4096 C
+  605  histrory 
+  606  ll
+  607  cd practiceGIT/
+  608  cd F
+  609  cd Firstrepo/
+  610  ll
+  611  branch
+  612  git branch
+  613  vi 28-2-23
+  614  git status
+  615  git add .
+  616  git status
+  617  git commit -m "abcd line" 
+  618  git log -1
+  619  git rebase
+  620  git push origin master
+  621  git log -1
+  622  git checkout main
+  623  git branch
+  624  git cherry-pick f331f254ba3848a8eefa11d864785ac3b43b060a
+  625  git cherry-pick --continue
+  626  git add git f331f254ba3848a8eefa11d864785ac3b43b060a
+  627  git add .
+  628  git status
+  629  git cherry-pick --continue
+  630  git status
+  631  cat 28-2-23
+  632  git branch 
+  633  git push -origin main
+  634  git push -u origin main
+  635  git rebase 
+  636  git push -u origin main
+  637  git push origin master
+  638  git push origin main
+  639  git pull 28-2-23
+  640  git branch
+  641  git pull origin main
+  642  ll
+  643  cat 28-2-23
+  644  git add 28-2-23
+  645  git status
+  646  git branch
+  647  git commit -m "cherrypig from master abc line"
+  648  git push origin main
+  649  git push -ff only
+  650  git push -ff main
+  651  git push -ff 28-2-23
+  652  clear
+  653  git reset
+  654  ll
+  655  git diff
+  656  git diff 28-2-23
+  657  git diff HEAD~1 HEAD
+  658  git tag
+  659  ll
+  660  git status
+  661  history
+  662  clear
+  663  ll
+  664  cd practiceGIT/
+  665  cd Firstrepo/
+  666  ll
+  667  git branch
+  668  git branch mahesh
+  669  git branch
+  670  git checkout mahesh
+  671  git branch
+  672  git status
+  673  .git config
+  674  .gitconfig
+  675  cat .gitconfig
+  676  cat .git config
+  677  history
+  678  clear
+  679  ll
+  680  vi mahesh
+  681  git status
+  682  git add .
+  683  git commit -m "first file of mahi"
+  684  git status
+  685  git push origin mahesh
+  686  ll
+  687  cd practiceGIT/
+  688  ll
+  689  cd Firstrepo/
+  690  ll
+  691  mkdir new
+  692  git status
+  693  ll
+  694  git add new
+  695  git status
+  696  git commit -m "new dir"
+  697  git push origin new
+  698  git pushcd
+  699  cd
+  700  git push
+  701  git push mahesh
+  702  git add .
+  703  git staus
+  704  clear
+  705  cd practiceGIT/
+  706  cd Firstrepo/
+  707  ll
+  708  git add .
+  709  git status
+  710  git commit -m "new dir"
+  711  git push mahesh
+  712  git push origin mahesh
+  713  cd  714  lll
+  715  ll
+  716  cd shellscript/
+  717  ll
+  718  vi To-find-File-Dir
+  719  mv To-find-File-Di To-find-File-Dir.sh
+  720  ll
+  721  mv -f To-find-File-Di To-find-File-Dir.sh
+  722  pwd
+  723  mv -f To-find-File-Di /home/ec2-user/shellscript/To-find-File-Dir.sh
+  724  clear
+  725  ll
+  726  vi To-find-File-Dir.sh
+  727  cp To-find-File-Di To-find-File-Dir.sh
+  728  cp To-find-File-Di /home/ec2-user/shellscript/To-find-File-Dir.sh
+  729  ll
+  730  vi finfing-file/dir.sh
+  731  ll
+  732  touch find-File/Dir
+  733  clear
+  734  cd
+  735  ll
+  736  cd shellscript/
+  737  ll
+  738  chmod ug+o To-find-File-Dir
+  739  ll
+  740  chmod ug+x To-find-File-Dir
+  741  ll
+  742  mv To-find-File-Dir To-find-File-Dir.sh
+  743  ll
+  744  vi T
+  745  ll
+  746  rm T
+  747  ll
+  748  vi To-find-File-Dir.sh 
+  749  ./To-find-File-Dir.sh 
+  750  vi To-find-File-Dir.sh 
+  751  ./To-find-File-Dir.sh 
+  752  vi To-find-File-Dir.sh 
+  753  ./To-find-File-Dir.sh 
+  754  special.sh
+  755  touch q
+  756  ./To-find-File-Dir.sh 
+  757  clear
+  758  vi To-find-File-Dir.sh 
+  759  mkdri mm
+  760  clear [A
+  761  mkdir mm
+  762  ll
+  763  ./To-find-File-Dir.sh 
+  764  clear
+  765  ll
+  766  ./To-find-File-Dir.sh 
+  767  pwd
+  768  ./To-find-File-Dir.sh 
+  769  vi To-find-File-Dir.sh 
+  770  ./To-find-File-Dir.sh 
+  771  vi To-find-File-Dir.sh 
+  772  ./To-find-File-Dir.sh 
+  773  vi To-find-File-Dir.sh 
+  774  ./To-find-File-Dir.sh 
+  775  vi To-find-File-Dir.sh 
+  776  ./To-find-File-Dir.sh 
+  777  vi To-find-File-Dir.sh 
+  778  ./To-find-File-Dir.sh 
+  779  vi To-find-File-Dir.sh 
+  780  ./To-find-File-Dir.sh 
+  781  vi To-find-File-Dir.sh 
+  782  ./To-find-File-Dir.sh 
+  783  vi To-find-File-Dir.sh 
+  784  ./To-find-File-Dir.sh 
+  785  mm
+  786  ./To-find-File-Dir.sh 
+  787  clear
+  788  ll
+  789  cd practiceGIT/
+  790  ll
+  791  cd f
+  792  cd Firstrepo/
+  793  ll
+  794  vi 28-2-23
+  795  git vrranch
+  796  git branch 
+  797  ll
+  798  cat 28-2-23 
+  799  git checkout maste
+  800  git checkout master
+  801  git add .
+  802  git status
+  803  git commit -m "filename changes"
+  804  git pull origin 28-2-23
+  805  git pull origin mahesh
+  806  git merge mahesh
+  807  git push origin mahesh
+  808  git pull mahesh
+  809  git pull origin mahesh
+  810  git status
+  811  git push origin mahesh
+  812  git rebase mahesh
+  813  git push origin mahesh
+  814  gir checkout master
+  815  git checkout master
+  816  git merge mahesh
+  817  git pull
+  818  git pull 28-2-23
+  819  merge conflict
+  820  ls 
+  821  cat 28-2-23 
+  822  vi 28-2-23 
+  823  git add 28-2-23 
+  824  git status
+  825  git commit -m "conflicts resolved"
+  826  gits push origin master
+  827  git push origin master
+  828  tree -a 
+  829  git log
+  830  git branch
+  831  ll
+  832  vi f1234 
+  833  git checkout mahesh
+  834  ll
+  835  git merge master
+  836  git status
+  837  git commit -m "merged data between 2 branches"
+  838  git add .
+  839  git commit -m "merged data between 2 branches"
+  840  git log
+  841  git checkout main
+  842  git merge master
+  843  git log
+  844  git status --s
+  845  git status --short
+  846  git status -s
+  847  vi pooja
+  848  git status -s
+  849  netstat nptl |grep -o "8080"
+  850  netstat -nptl |grep -o "8080"
+  851  sudo su 
+  852  ll
+  853  clear
+  854  sudo yum update
+  855  source ~/.bashrc
+  856  ll
+  857  cd shellscript/
+  858  ll
+  859  cat p
+  860  cat palindrome.sh 
+  861  vi addition-of-2num
+  862  chmos ug+x addition-of-2num 
+  863  chmod ug+x addition-of-2num 
+  864  ./addition-of-2num 
+  865  vi addition-of-2num
+  866  ./addition-of-2num 
+  867  vi addition-of-2num
+  868  ./addition-of-2num 
+  869  vi addition-of-2num
+  870  ./addition-of-2num 
+  871  vi addition-of-2num
+  872  ./addition-of-2num 
+  873  vi addition-of-2num
+  874  ./addition-of-2num 
+  875  vi fibonachi
+  876  chmod ug+x fibonachi 
+  877  ./
+  878  ./fibonachi 
+  879  ./ -x fibonachi 
+  880  -x ./fi
+  881  bash -x fibonachi 
+  882  vi fibonachi 
+  883  bash -x fibonachi 
+  884  vi remove-file
+  885  chmod ug+x remove-file 
+  886  ll
+  887  mv remove-file remove-file.sh
+  888  mv fibonachi fibonachi.sh
+  889  ll
+  890  mv addition-of-2num addition-of-2num.sh 
+  891  ll
+  892  clear
+  893  vi split-string.sh
+  894  chomd ug+x split-string.sh 
+  895  ll
+  896  chmod ug+x split-string.sh 
+  897  bash -x split-string.sh 
+  898  vi split-string.sh
+  899  bash -x split-string.sh 
+  900  ./split-string.sh 
+  901  vi split-string.sh
+  902  ./split-string.sh 
+  903  vi split-string.sh
+  904  ./split-string.sh 
+  905  vi split-string.sh
+  906  vi sort_array.sh
+  907  chmod ug+x sort_array.sh 
+  908  ./sort_array.sh
+  909  vi sort_array.sh
+  910  ll
+  911  cp q q
+  912  q qq
+  913  cp q qq
+  914  chmod ug0+rwx q 
+  915  chmod ugo+rwx q 
+  916  chmod ugo+rwx qq
+  917  ./sort_array.sh 
+  918  pwd
+  919  vi sort_array.sh
+  920  ./sort_array.sh 
+  921  vi sort_array.sh
+  922  ./sort_array.sh 
+  923  vi sort_array.sh
+  924  vi sort_array.sh
+  925  ./sort_array.sh 
+  926  vi sort_array.sh
+  927  ./sort_array.sh 
+  928  vi sort_array.sh
+  929  ./sort_array.sh 
+  930  vi sort_array.sh
+  931  ./sort_array.sh 
+  932  vi sort_array.sh
+  933  vi q
+  934  ./sort_array.sh 
+  935  vi q
+  936  ./sort_array.sh 
+  937  vi q
+  938  vi sort_array.sh
+  939  clear
+  940  history
+  941  history | grep nano
+  942  netsta | grep 8080
+  943  netstat | grep 8080
+  944  netstat
+  945  netstat | grep 18178
+  946  find -type f -empty
+  947  cd
+  948  find -type f -empty
+  949  find . -type f -empty
+  950  cd shellscript/
+  951  sed -n 5 0.log
+  952  sed -e -n 5 0.log
+  953  sed -n 5 0.log
+  954  ll
+  955  sed -n 5 q
+  956  sed -n '5p' q
+  957  sed -n '6.7p' q
+  958  sed -n '6,7p' q
+  959  sed -n '3p;7p' q
+  960  cd
+  961  ll
+  962  cat f1
+  963  cat f2
+  964  cat f4
+  965  clear
+  966  ll
+  967  cat f10
+  968  ln -s /home/ec2-user/f10 /home/ec2-user
+  969  ln -s /home/ec2-user/f2 /home/ec2-user
+  970  Ln -s /home/ec2-user/f2 /home/ec2-user
+  971  ln -s /home/ec2-user/file.h /home/ec2-user
+  972  history | grep ln
+  973  pwd
+  974  ln -s /home/ec2-user/ /home/ec2-user
+  975  ll
+  976  ls -l
+  977  rm ec2-user
+  978  ll
+  979  ln -s /home/ec2-user/f1 /home/ec2-user/f1soft
+  980  ll
+  981  awk '{print $NR, $1, $F}' f1
+  982  awk '{print NR, $1, $NF}' f1
+  983  awk 'NF==0 {print NR, $1, $NF}' f1
+  984  awk 'NF!=0 {print NR, $1, $NF}' f1
+  985  awk -i '/hello/||/to/' f1
+  986  awk '/hello/||/to/' f1
+  987  awk '/hello/||/To/' f1
+  988  awk '/hello/||/TO/' f1
+  989  cat f1
+  990  awk 'BEGIN {FS = " : "}{print NR}' f1
+  991  awk 'BEGIN {FS = ":"}{print NR}' f1
+  992  cd .ssh
+  993  ll
+  994  vi authorized_keys 
+  995  cd .ssh
+  996  vi authorized_keys 
+  997  cat authorized_keys 
+  998  exit
+  999  ll
+ 1000  pwd
+ 1001  cd shellscript/
+ 1002  pwd
+ 1003  ll
+ 1004  rm mm
+ 1005  cd
+ 1006  cd practiceGIT/
+ 1007  ll
+ 1008  git clone git@github.com:PoojaAshi/shellscripts.git
+ 1009  ll
+ 1010  cd shellscripts/
+ 1011  cp /home/ec2-user/shellscript 
+ 1012  pwd
+ 1013  cp /home/ec2-user/shellscript /home/ec2-user/practiceGIT/shellscripts
+ 1014  ll
+ 1015  ls -lrt
+ 1016  cd ..
+ 1017  ll
+ 1018  cp /home/ec2-user/shellscript /home/ec2-user/practiceGIT/shellscripts
+ 1019  mv /home/ec2-user/shellscript /home/ec2-user/practiceGIT/shellscripts
+ 1020  ll
+ 1021  cd shellscripts/
+ 1022  ll
+ 1023  git status
+ 1024  git add .
+ 1025  git commit -m "scripts"
+ 1026  git status
+ 1027  git branch
+ 1028  git push origin main
+ 1029  history
+ 1030  cd
+ 1031  history > history.txt
